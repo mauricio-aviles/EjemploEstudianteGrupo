@@ -3,6 +3,8 @@ package logica;
 import java.util.ArrayList;
 import java.util.List;
 
+// comentario con algún cambio que hice
+
 public class Estudiante {
     private String carnet;
     private String nombre;
@@ -62,5 +64,9 @@ public class Estudiante {
     
     public List<Grupo> getGruposMatriculados() {
         return gruposMatriculados;
+    }
+    
+    public int nuevo() {
+    	return 0;    	
     }
 }
